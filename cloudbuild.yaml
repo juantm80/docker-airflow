@@ -8,6 +8,8 @@ steps:
   id: Build
   args:
   - 'build'
+  - '--build-arg' 
+  - 'AIRFLOW_DEPS="gcp,google_auth"'
   - '--force-rm'
   - '--no-cache'
   - '-t'
