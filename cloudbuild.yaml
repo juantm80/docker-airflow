@@ -26,6 +26,6 @@ steps:
   - 'gcr.io/$PROJECT_ID/$_AIRFLOW_IMAGE_NAME'
   
 images: ['gcr.io/$PROJECT_ID/$_AIRFLOW_IMAGE_NAME']
-tags: ['accenture', 'jtmartin']
+tags: ['accenture', 'jtmartin', 'test']
   
 # [END cloudbuild]
